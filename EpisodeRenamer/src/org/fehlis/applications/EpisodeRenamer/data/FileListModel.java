@@ -6,7 +6,7 @@ import javax.swing.ListModel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
 
-public class FileListModel extends Vector<java.io.File> implements ListModel
+public class FileListModel extends Vector<File> implements ListModel
 {
 	/**
 	 * 
